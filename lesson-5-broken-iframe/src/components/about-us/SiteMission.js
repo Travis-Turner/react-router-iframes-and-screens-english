@@ -3,9 +3,9 @@ import React from 'react';
 function SiteMission () {
   return (
     <div>
-      <h3>Наша миссия</h3>
+      <h3>Our mission</h3>
       <p>
-        Мы стремимся повысить уровень дискурса в сообществе пользователей эмоджи, а также повысить качество професиональной критики и рецензирования эмоджи.
+          We aim to increase the level of intellectural discourse within the emoji community, while also elevating the quality of professional emoji critisim.
       </p>
     </div>
   )

@@ -6,48 +6,48 @@ import billLight from './images/bill-light.png';
 const serverData = {
   "friends": [
     {
-      "name": "Саша",
+      "name": "Bill",
 			"id": "0",
-      "profilePicDark": billDark,
-      "profilePicLight": billLight,
-			"location": "Санкт-Петербург, Россия",
-			"favBirdQuote": "Красна птица пением, а человек – умением.",
+      "profilePicDark":"/profile-images/bill-dark.png",
+      "profilePicLight":"/profile-images/bill-light.png",
+			"location": "Boise, Idaho",
+			"favBirdQuote": "The early bird gets the worm",
       "parrotsOwned": [
         {
-          "name": "Кеша",
+          "name": "Jimjim",
           "favoriteToys": [
-            "бубенчик",
-            "бумажный бантик"
+            "ball",
+            "ribbon"
           ]
         },
         {
-          "name": "Чарли",
+          "name": "Charles",
           "favoriteToys": [
-            "маленькая чашечка",
-            "медвежонок"
+            "the little cup",
+            "his bear"
           ]
         }
       ]
     },
     {
-      "name": "Женя",
+      "name": "Mary",
 			"id": "1",
-      "profilePicDark": annaDark,
-      "profilePicLight": annaLight,
-			"location": "Владивосток, Россия",
-			"favBirdQuote": "Лучше синица в руках, чем журавль в небе.",
+      "profilePicDark":"/profile-images/mary-dark.png",
+      "profilePicLight":"/profile-images/mary-light.png",
+			"location": "London, England",
+			"favBirdQuote": "A bird in the hand is worth two in the bush",
       "parrotsOwned": [
         {
-          "name": "Абрикос",
+          "name": "Smitty",
           "favoriteToys": [
-            "карандал",
-            "пищалка"
+            "pencil",
+            "squeaker"
           ]
         }
       ]
     }
   ]
-};
+}
 
 export default serverData;
 

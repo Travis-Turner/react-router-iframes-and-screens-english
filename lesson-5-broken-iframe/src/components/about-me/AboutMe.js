@@ -10,13 +10,13 @@ function AboutMe () {
     <div className="about-me">
       <ul className="links">
         <li>
-          <Link to="/my-story">Моя история</Link>
+          <Link to="/my-story">My Story</Link>
         </li>
         <li>
-          <Link to="/hobbies">Хобби</Link>
+          <Link to="/hobbies">Hobbies</Link>
         </li>
         <li>
-          <Link to="/contact">Контактная информация</Link>
+          <Link to="/contact">My Contact Info</Link>
         </li>
       </ul>
       <Route path="/my-story">

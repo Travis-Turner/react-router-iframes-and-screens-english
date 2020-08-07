@@ -4,7 +4,7 @@ import './AboutUs.css';
 function AboutUs () {
   return (
     <div className="about-us">
-      <p>О нас</p>
+      <p>About us</p>
     </div>
   )
 }
