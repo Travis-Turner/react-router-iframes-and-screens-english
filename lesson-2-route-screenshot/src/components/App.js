@@ -15,7 +15,7 @@ function App() {
   // this hook is used only the first time the component launches
   useEffect(() => {
     // we're fetching the review data from the server
-    fetch('https://api.nomoreparties.co/emoji-critic-rus').then((res) => {
+    fetch('https://api.nomoreparties.co/emoji-critic-ens').then((res) => {
       return res.json();
     }).then((parsedReviews) => {
       // we're formatting the data and using setData() to update our state
